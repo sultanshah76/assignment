@@ -1,20 +1,20 @@
-import { clearScreenDown } from "readline"
 
-const bike={
+
+let bike={
     color:'black',
     cubiccapacity: "70",
     seatingcapacity:"2persons",
     rims:"alloy",
     modle:"cd 70"
 }
-const bike1={
+let bike1={
     color:'red',
     cubiccapacity: "125",
     seatingcapacity:"3persons",
     rims:"without alloy",
     modle:"cg 125"
 }
-const bike2={
+let bike2={
     color:'orange',
     cubiccapacity: "150",
     seatingcapacity:"4persons",
@@ -22,4 +22,4 @@ const bike2={
     modle:"cg 150"
 }
 console.log(`different bikes models`)
-console.log( bike2,bike,bike1)
+console.log( bike,bike1,bike2);
